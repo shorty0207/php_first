@@ -15,12 +15,12 @@ error_reporting(E_ALL);
 <html>
 <head>
     <meta charset="UTF-8">
-    <title><?php print 'As, ' . date("l"). ' ir PHP';?></title>
+    <title>PHP lydes ir <?php print date('Y-m-d', strtotime('+1 day'));?></title>
 
 </head>
 <body>
-        <h1><?php print 'Vytenis';?> -HTML <?php print' ir PHP' ;?> asas jau nuo <?php print date('Y') . ' metu';?></h1>
-        <p>Viskas prasidejo <?php print date('m') . ' menesio, ' . date('d') . ' diena';?>
+        <h1><?php print 'Vytenis';?> -PHP su manim buvo ir <?php print date('H-i-s', strtotime('-1 hour'));?></h1>
+        <p> <?php print date('Y', strtotime('+1 year') );?> ne uz kalnu!
         </p>
 </body>
 </html>
