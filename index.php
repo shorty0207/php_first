@@ -15,15 +15,12 @@ error_reporting(E_ALL);
 <html>
 <head>
     <meta charset="UTF-8">
-    <title> Aš valdau HTML!<?php print ' ir PHP' ;?></title>
-
-
-   
+    <title><?php print 'As, ' . date("l"). ' ir PHP';?></title>
 
 </head>
 <body>
-        <h1><?php print 'Vytenis';?> -HTML <?php print' ir PHP' ;?> asas</h1>
-        <p>Kuriu dinamini turini.
-        Atidaryta: <?php print $today = date("F j, Y, g:i a") ?></p>
+        <h1><?php print 'Vytenis';?> -HTML <?php print' ir PHP' ;?> asas jau nuo <?php print date('Y') . ' metu';?></h1>
+        <p>Viskas prasidejo <?php print date('m') . ' menesio, ' . date('d') . ' diena';?>
+        </p>
 </body>
 </html>
