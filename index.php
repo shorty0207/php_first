@@ -15,12 +15,12 @@ error_reporting(E_ALL);
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>PHP lydes ir <?php print date('Y-m-d', strtotime('+1 day'));?></title>
+    <title>PHP lydes  <?php print date('Y-m-d', strtotime(rand(0, 10) . 'year')); ?></title>
 
 </head>
 <body>
-        <h1><?php print 'Vytenis';?> -PHP su manim buvo ir <?php print date('H-i-s', strtotime('-1 hour'));?></h1>
-        <p> <?php print date('Y', strtotime('+1 year') );?> ne uz kalnu!
+        <h1><?php print 'Vytenis';?> - Galbut turesiu <?php print rand(1, 5); ?></h1>
+        <p> D. Trumpas nebebus prezidentu: <?php print date('Y', strtotime(rand(2,10) . 'year')); ?>
         </p>
 </body>
 </html>
