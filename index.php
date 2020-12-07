@@ -20,8 +20,10 @@ error_reporting(E_ALL);
 
 </head>
 <body>
-    <h1>Vytenis - galbut turesiu  <?php print rand(1,5); ?> vaikus </h1>
-    <p>D.Trumpas nebebus prezidentu:<?php print date('Y-m-d', strtotime(rand(2,10) . 'year'))  ;?>ne uz kalnu!</p>
+    
+    <div>
+        <img style= "width: 100px;"src="images/<?php print rand(1,6); ?>.png">
+    </div>
 
 </body>
 </html>
