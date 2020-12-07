@@ -7,9 +7,8 @@ error_reporting(E_ALL);
 ?>
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title><?php> print 'As, ' . 'echo date('l \t\h\e jS')' . 'ir PHP' ?></title>
+    <title> PHP lydes<?php> 'As, ' . 'echo date('l \t\h\e jS')' . 'ir PHP' ?></title>
 
 
     <script src="https://kit.fontawesome.com/42762d49f1.js" crossorigin="anonymous"></script>
@@ -21,8 +20,8 @@ error_reporting(E_ALL);
 
 </head>
 <body>
-    <h1>Vytenis - PHP su manim buvo ir  <?php print $today = date("H:i:s ") ;?> </h1>
-    <p><?php $today = date("Y") + 1 ;?>ne uz kalnu!</p>
+    <h1>Vytenis - galbut turesiu  <?php print rand(1,5); ?> vaikus </h1>
+    <p>D.Trumpas nebebus prezidentu:<?php print date('Y-m-d', strtotime(rand(2,10) . 'year'))  ;?>ne uz kalnu!</p>
 
 </body>
 </html>
